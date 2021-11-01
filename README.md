@@ -1,5 +1,10 @@
-# Run
+# To run:
 ```
 yarn install
-ts-node main.ts
+ts-node *pattern-dir*/main.ts
+```
+
+# Tests:
+```
+yarn test
 ```
