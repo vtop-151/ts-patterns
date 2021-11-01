@@ -1,7 +1,7 @@
-import { ConcreteBuilder1 } from "./ConcreteBuilder1";
-import { Director } from "./Director";
+import { ConcreteBuilder1 } from './ConcreteBuilder1';
+import { Director } from './Director';
 
-function clientCode(director: Director) {
+function clientCode(director: Director): void {
     const builder = new ConcreteBuilder1();
     director.setBuilder(builder);
 
