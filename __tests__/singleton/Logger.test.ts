@@ -1,4 +1,4 @@
-import Logger from '../Logger';
+import Logger from '../../patterns/creational/singleton/Logger';
 
 describe('Logger', () => {
     it('should be only one instance', () => {
