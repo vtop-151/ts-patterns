@@ -1,7 +1,7 @@
-import { Builder } from './Builder';
-import { Product1 } from './Product1';
+import Builder from './Builder';
+import Product1 from './Product1';
 
-export class ConcreteBuilder1 implements Builder {
+export default class ConcreteBuilder1 implements Builder {
     public product: Product1;
 
     constructor() {

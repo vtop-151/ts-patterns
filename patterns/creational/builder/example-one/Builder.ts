@@ -1,4 +1,4 @@
-export interface Builder {
+export default interface Builder {
     producePartA(): void
     producePartB(): void
     producePartC(): void

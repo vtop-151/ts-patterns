@@ -1,4 +1,4 @@
-import { Logger } from './logger';
+import Logger from '../Logger';
 
 describe('Logger', () => {
     it('should be only one instance', () => {

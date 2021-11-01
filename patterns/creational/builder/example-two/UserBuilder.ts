@@ -1,6 +1,6 @@
-import { User } from './User';
+import User from './User';
 
-export class UserBuilder {
+export default class UserBuilder {
     private _name: string;
     private _age: number;
     private _phone: string;

@@ -4,7 +4,7 @@ $ yarn install
 $ ts-node *pattern-dir*/main.ts
 ```
 
-# Tests:
+# To run tests:
 ```
 $ yarn test
 ```

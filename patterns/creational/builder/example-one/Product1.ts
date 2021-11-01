@@ -1,4 +1,4 @@
-export class Product1 {
+export default class Product1 {
     public parts: string[] = [];
 
     public listParts(): void {

@@ -1,6 +1,6 @@
-import { Builder } from './Builder';
+import Builder from './Builder';
 
-export class Director {
+export default class Director {
     private builder: Builder;
 
     public setBuilder(builder: Builder): void {
