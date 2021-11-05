@@ -13,15 +13,15 @@ export default class ConcreteBuilder1 implements Builder {
     }
 
     public producePartA(): void {
-        this.product.parts.push('PartA1');
+        this.product.setPartA(1);
     }
 
     public producePartB(): void {
-        this.product.parts.push('PartB1');
+        this.product.setPartB(2);
     }
 
     public producePartC(): void {
-        this.product.parts.push('PartC1');
+        this.product.setPartC(3);
     }
 
     public getProduct(): Product1 {

@@ -7,17 +7,17 @@ function clientCode(director: Director): void {
 
     console.log('Build basic product:');
     director.buildBasicProduct();
-    builder.getProduct().listParts();
+    console.log(builder.getProduct());
 
     console.log('Build full product:');
     director.buildFullProduct();
-    builder.getProduct().listParts();
+    console.log(builder.getProduct());
 
     /* Using builder pattern without Director class */
     console.log('Build custom product:');
     builder.producePartB();
     builder.producePartC();
-    builder.getProduct().listParts();
+    console.log(builder.getProduct());
 }
 
 const director = new Director();
